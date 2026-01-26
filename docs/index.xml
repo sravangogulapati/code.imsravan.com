@@ -1,19 +1,26 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Posts on code | i&#39;m sravan</title>
-    <link>http://localhost:1313/posts/</link>
-    <description>Recent content in Posts on code | i&#39;m sravan</description>
+    <title>code | i&#39;m sravan</title>
+    <link>https://code.imsravan.com/</link>
+    <description>Recent content on code | i&#39;m sravan</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <lastBuildDate>Sat, 24 Jan 2026 22:32:57 -0800</lastBuildDate>
-    <atom:link href="http://localhost:1313/posts/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://code.imsravan.com/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Python Notebook Guide</title>
-      <link>http://localhost:1313/posts/2026-01-24-python-notebook-guide/</link>
+      <link>https://code.imsravan.com/posts/2026-01-24-python-notebook-guide/</link>
       <pubDate>Sat, 24 Jan 2026 22:32:57 -0800</pubDate>
-      <guid>http://localhost:1313/posts/2026-01-24-python-notebook-guide/</guid>
+      <guid>https://code.imsravan.com/posts/2026-01-24-python-notebook-guide/</guid>
       <description>&lt;h2 id=&#34;what-is-a-notebook&#34;&gt;What is a “notebook”?&lt;/h2&gt;&#xA;&lt;p&gt;A Python notebook isn&amp;rsquo;t a &amp;ldquo;program&amp;rdquo; in the traditional sense; it’s a document that holds three things at once:&lt;/p&gt;&#xA;&lt;ol&gt;&#xA;&lt;li&gt;&lt;strong&gt;Plain Text:&lt;/strong&gt; Explanations, notes, and titles (like a Word doc).&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Live Code:&lt;/strong&gt; Real snippets of instructions that the computer can run.&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Visual Results:&lt;/strong&gt; Graphs, images, or data tables that appear instantly after the code runs.&lt;/li&gt;&#xA;&lt;/ol&gt;&#xA;&lt;p&gt;It’s like a &lt;strong&gt;digital recipe book&lt;/strong&gt;. In a regular cookbook, you read the instructions and then go to the stove to cook. In a Notebook, the &amp;ldquo;instructions&amp;rdquo; are right there, and you just click a button to &amp;ldquo;cook&amp;rdquo; the dish instantly on the same page.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title></title>
+      <link>https://code.imsravan.com/search/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://code.imsravan.com/search/</guid>
+      <description></description>
     </item>
   </channel>
 </rss>

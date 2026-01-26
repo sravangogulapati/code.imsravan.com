@@ -2,11 +2,18 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>https://code.imsravan.com/</loc>
+    <lastmod>2026-01-24T22:32:57-08:00</lastmod>
+  </url><url>
+    <loc>https://code.imsravan.com/posts/</loc>
+    <lastmod>2026-01-24T22:32:57-08:00</lastmod>
+  </url><url>
+    <loc>https://code.imsravan.com/posts/2026-01-24-python-notebook-guide/</loc>
+    <lastmod>2026-01-24T22:32:57-08:00</lastmod>
+  </url><url>
     <loc>https://code.imsravan.com/search/</loc>
   </url><url>
     <loc>https://code.imsravan.com/categories/</loc>
-  </url><url>
-    <loc>https://code.imsravan.com/</loc>
   </url><url>
     <loc>https://code.imsravan.com/tags/</loc>
   </url>

@@ -1,6 +1,6 @@
 +++
 date = '2026-01-24T22:32:57-08:00'
-draft = true
+draft = false
 title = 'Python Notebook Guide'
 author = 'Sravan Gogulapati'
 +++
