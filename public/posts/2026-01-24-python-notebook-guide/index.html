@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html data-theme="light" lang="en-us"
+  dir="ltr">
+
+<head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
+  <meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+<meta http-equiv="X-UA-Compatible" content="IE = edge, chrome = 1">
+
+<title>
+  Python Notebook Guide @ code | i&#39;m sravan
+</title>
+
+<meta name="description" content="What is a “notebook”? A Python notebook isn&rsquo;t a &ldquo;program&rdquo; in…">
+
+<meta name="generator" content="Hugo 0.154.5">
+
+<link rel="canonical" href="http://localhost:1313/posts/2026-01-24-python-notebook-guide/">
+
+<meta property="og:type" content="website">
+
+<meta property="og:locale" content="en-us">
+<meta property="og:title" content='Python Notebook Guide @ code | i&#39;m sravan'>
+<meta property="og:site_name" content="code | i&#39;m sravan">
+<meta property="og:description" content="What is a “notebook”? A Python notebook isn&rsquo;t a &ldquo;program&rdquo; in…">
+<meta property="og:url" content="http://localhost:1313/posts/2026-01-24-python-notebook-guide/">
+
+<meta property="og:image" content="">
+<meta name="twitter:image" content="">
+
+<meta name="twitter:card" content="summary_large_image">
+
+<link rel="shortcut icon" href="/assets/imgs/favicon.ico">
+<link rel="icon" type="image/png" sizes="32x32" href="/assets/imgs/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="/assets/imgs/favicon-16x16.png">
+<link rel="apple-touch-icon" sizes="180x180" href="/assets/imgs/apple-touch-icon.png">
+
+
+
+
+
+
+<link rel="stylesheet" href="/assets/scss/main.min.css">
+
+
+
+
+<script>
+  (function () {
+    const savedTheme = localStorage.getItem('theme') || 'light';
+    document.documentElement.setAttribute('data-theme', savedTheme);
+  })();
+</script>
+
+
+
+
+<style>
+  @font-face {
+    font-family: 'jicaleta';
+    src: url('/assets/fonts/Jicaleta-Regular.83dd0e7b882bf278618f3db4d4f27c08f8af4d569257a4378e51e3f602e135ca.woff2') format('woff2'),
+    url('/assets/fonts/Jicaleta-Regular.f075ee85c86402151d90c4704f7d86ff7ed52e49e7da47e201ee4f7e6f76d2ff.woff') format('woff');
+  }
+</style>
+
+
+
+
+
+<style>
+  @font-face {
+    font-family: 'Fira Code';
+    src: url('/assets/fonts/FiraCode-Regular.a6ce59520b90e15d7062ffef214f94c8add5a4085c0bbb1683602ef227a4d1fe.woff2') format('woff2'),
+    url('/assets/fonts/FiraCode-Regular.e4b5a20d572b7f718d64c884e4e48cb7e45303ab50722011469ee2e1964bff6d.woff') format('woff');
+  }
+  
+  p {
+    text-indent: 2em;
+  }
+</style>
+
+
+
+
+
+<script src="/assets/js/main.js"></script>
+
+
+
+
+
+
+
+</head>
+
+<body>
+  <header>
+    <nav class="navbar">
+        <div class="navbar-top" id="top">
+            <div class="navbar-logo">
+                <a href="http://localhost:1313/" class="logo-text" style="font-family: jicaleta;">
+                    
+                    code | i&#39;m sravan
+                    
+                </a>
+            </div>
+            <div class="navbar-burger" id="navbar-burger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+        <div class="navbar-menu" id="navbar-menu">
+            <div class="navbar-link-list">
+                
+                <a href="/search" class="navbar-link-item">Search</a>
+            </div>
+            <div class="theme-toggle">
+                <div id="theme-toggle-btn">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24">
+                        <path fill="#1a1a1a"
+                            d="M10 2c-1.82 0-3.53.5-5 1.35C8 5.08 10 8.3 10 12s-2 6.92-5 8.65C6.47 21.5 8.18 22 10 22a10 10 0 0 0 10-10A10 10 0 0 0 10 2" />
+                    </svg>
+                </div>
+            </div>
+        </div>
+    </nav>
+</header>
+
+  <main>
+    
+
+
+
+<h1>Python Notebook Guide</h1>
+
+<div class="article-tag">
+  
+  <span class="article-author">By&nbsp;Sravan Gogulapati</span>
+  
+  
+  <time datetime="2026-01-24T22:32:57">Posted on 2026-01-24</time>
+  
+  
+</div>
+
+<h2 id="what-is-a-notebook">What is a “notebook”?</h2>
+<p>A Python notebook isn&rsquo;t a &ldquo;program&rdquo; in the traditional sense; it’s a document that holds three things at once:</p>
+<ol>
+<li><strong>Plain Text:</strong> Explanations, notes, and titles (like a Word doc).</li>
+<li><strong>Live Code:</strong> Real snippets of instructions that the computer can run.</li>
+<li><strong>Visual Results:</strong> Graphs, images, or data tables that appear instantly after the code runs.</li>
+</ol>
+<p>It’s like a <strong>digital recipe book</strong>. In a regular cookbook, you read the instructions and then go to the stove to cook. In a Notebook, the &ldquo;instructions&rdquo; are right there, and you just click a button to &ldquo;cook&rdquo; the dish instantly on the same page.</p>
+<p>Here is an example of a Notebook file from <a href="https://github.com/microsoft/Data-Science-For-Beginners/tree/main">Data-Science-For-Beginners</a>:</p>
+<p><img src="/images/sample_notebook.png" alt="sample notebook" title="A sample jupyter notebook"></p>
+<h2 id="the-big-three">The Big Three</h2>
+<p>You will often hear these three names used interchangeably, but here is how they differ:</p>
+<ul>
+<li><strong>Jupyter Notebook:</strong> The &ldquo;original&rdquo; version. It runs on your own computer&rsquo;s hard drive and is the gold standard for data scientists.</li>
+<li><strong>JupyterLab:</strong> The professional workspace. It’s like an upgraded office where you can have many Notebooks, files, and tools open at the same time.</li>
+<li><strong>Google Colab:</strong> The &ldquo;Google Docs&rdquo; of AI. It lives in your web browser. You don&rsquo;t have to install anything, and Google lets you use their powerful &ldquo;supercomputers&rdquo; for free to run AI tasks.</li>
+</ul>
+<h2 id="why-it-matters-for-ai">Why it Matters for AI</h2>
+<p>Why don&rsquo;t AI developers just use a &ldquo;normal&rdquo; code editor? There are three main reasons:</p>
+<ul>
+<li><strong>Step-by-Step Learning:</strong> AI is built in stages (loading data, training the model, testing the results). Notebooks let developers run one stage at a time without restarting.</li>
+<li><strong>Transparency:</strong> Notebooks tell a story. They show the <strong>thought process</strong> (text) alongside the <strong>action</strong> (code) and the <strong>proof</strong> (results).</li>
+<li><strong>Collaboration:</strong> Because Google Colab is in the cloud, a scientist in London can share an AI model with a student in Tokyo via a simple link. The student can click &ldquo;Run&rdquo; and see the AI work instantly.</li>
+</ul>
+<h2 id="a-simple-comparison">A Simple Comparison</h2>
+<table>
+  <thead>
+      <tr>
+          <th style="text-align: left">Feature</th>
+          <th style="text-align: left">Jupyter Notebook</th>
+          <th style="text-align: left">Google Colab</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td style="text-align: left"><strong>Where it runs</strong></td>
+          <td style="text-align: left">Your own computer</td>
+          <td style="text-align: left">Google’s &ldquo;Cloud&rdquo; computers</td>
+      </tr>
+      <tr>
+          <td style="text-align: left"><strong>Internet</strong></td>
+          <td style="text-align: left">Not required</td>
+          <td style="text-align: left">Required</td>
+      </tr>
+      <tr>
+          <td style="text-align: left"><strong>Best for</strong></td>
+          <td style="text-align: left">Private, local data work</td>
+          <td style="text-align: left">Collaborating and using free AI power</td>
+      </tr>
+      <tr>
+          <td style="text-align: left"><strong>Vibe</strong></td>
+          <td style="text-align: left">&ldquo;The desktop app&rdquo;</td>
+          <td style="text-align: left">&ldquo;The Google Doc&rdquo;</td>
+      </tr>
+  </tbody>
+</table>
+<h2 id="learning-resources">Learning Resources</h2>
+<p>If you want to get really good with using Notebooks (and get into AI), try:<br>
+<a href="https://www.kaggle.com/learn">Kaggle courses</a>: Aimed at complete beginners wanting to get into Machine Learning. Starts with teaching Python and programming in general, then moves on to Machine Learning and more advanced concepts in a digestible and engaging way.<br>
+<a href="https://www.deeplearning.ai/courses/?courses_date_desc%5BrefinementList%5D%5Bcourse_type%5D%5B0%5D=Short%20Courses">DeepLearning.AI’s Short Courses</a>: For those wanting to understand the fundamentals of modern Gen AI applications. Heavily covers LLM’s and the latest techniques in LLM applications. Each course has a video with a jupyter notebook alongside it, and you can run the cells while you watch the video!</p>
+<h2 id="get-started">Get Started</h2>
+<p>If you just want to play with AI <strong>right now</strong>, Colab is the way to go.</p>
+<h3 id="level-1-example-colab-notebook">Level 1: Example Colab Notebook</h3>
+<ol>
+<li>Go to: <a href="https://colab.research.google.com/">https://colab.research.google.com/</a></li>
+<li>Sign in with your Google account. You should see a pop up with the title “Open Notebook”.</li>
+<li>Click on “Examples” -&gt; “Overview of Colab Features”</li>
+<li>This will open up a notebook that has explanations of how to interact with notebooks in Colab. Read through it and run the interactive code cells.</li>
+</ol>
+<h3 id="level-2-create-your-own-notebook">Level 2: Create Your Own Notebook</h3>
+<ol>
+<li>Go to: <a href="https://colab.research.google.com/">https://colab.research.google.com/</a>. Make sure you’re signed in.</li>
+<li>In the “Open Notebook” popup, click the “New Notebook +” button.</li>
+<li>Select your Python environment.</li>
+<li>Try writing some Python cells and Markdown cells and run them.</li>
+</ol>
+
+
+
+
+
+
+
+  </main>
+
+  
+<div class="backtotop">
+    <div id="back-to-top" onclick="scrollToTop()">Back To Top</div>
+</div>
+
+
+  <footer class="footer">
+    <span>&copy; 2026 . All rights reserved.</span>
+    <span>Powered by <a href="https://gohugo.io">Hugo</a> & <a href="https://github.com/khitezza/vortisil/">Vortisil</a>.</span>
+</footer>
+  <script src="/assets/js/theme-toggle-gen.js"></script></body>
+
+</html>

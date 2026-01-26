@@ -1,0 +1,4 @@
+baseURL = 'https://code.imsravan.com/'
+languageCode = 'en-us'
+title = "code | i'm sravan"
+theme = 'vortisil'
