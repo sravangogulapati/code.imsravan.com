@@ -1,7 +1,7 @@
 +++
 date = '2026-01-24T22:32:57-08:00'
 draft = false
-title = 'Notebooks: 0 to 1 Guide'
+title = "Jupyter Notebooks: A '0 to 1' Guide"
 author = 'Sravan Gogulapati'
 +++
 ## What is a “notebook”?
